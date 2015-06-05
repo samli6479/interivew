@@ -20,7 +20,7 @@ public class AppTest extends TestCase
     @org.junit.Test
     public void matchTest()
     {
-        List<MatchedPair> matchedMovies = matcher.process("xboxFeed.csv","db.csv");
+        List<MatchedPair> matchedMovies = matcher.process("xboxFeed.csv","movies.csv","actors_and_directors.csv");
         for(MatchedPair movie : matchedMovies){
             assertNotSame(-1,movie.getGwiId());
             assertNotSame(null,movie.getXboxId());

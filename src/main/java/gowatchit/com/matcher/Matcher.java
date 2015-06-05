@@ -9,7 +9,7 @@ import java.util.List;
 @Component
 public class Matcher implements IMatcher{
 
-  public List<MatchedPair> process(String matchFromFile, String matchWithFile) {
+  public List<MatchedPair> process(String matchFromFile, String moviesDb, String contributorsDb) {
     //Implement your matching algorithm here.
     //Code below is just filler code.
 
