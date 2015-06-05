@@ -53,7 +53,7 @@ You will find some files given to you to start off.
 `/src/main/java/gowatchit/com/matcher/Matcher.java`: Where you will implement your matcher. Must return a List of `MatchedPair` objects
 
 ## Compile and Run
-This is a maven project, so a simple mvn clean install is all you need.
+This is a maven project, so a simple `mvn clean install` is all you need.
 You will see a test is failing. 
 
 #Objective
